@@ -1,5 +1,6 @@
 <script>
 import headerNav from './micro components/header components/headerNav.vue';
+import Button from './micro components/Button.vue';
 export default {
     data() {
         return {
@@ -7,7 +8,8 @@ export default {
         }
     },
     components: {
-        headerNav
+        headerNav,
+        Button
     }
 }
 </script>
@@ -27,6 +29,7 @@ export default {
             <div class="jumbo-txt">
                 <h1>NO PAIN NO GAIN</h1>
                 <p>Motivation is what gets you started. Motivation is what keeps you going</p>
+                <Button :fillTxt="'JOIN US TODAY'" />
             </div>
         </div>
     </header>
