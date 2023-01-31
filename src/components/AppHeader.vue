@@ -1,6 +1,11 @@
 <script>
 import headerNav from './micro components/header components/headerNav.vue';
 export default {
+    data() {
+        return {
+            navLinks: ['HOME', 'ABOUT US', 'FACILITIES', 'MEMBERSHIPS', 'TESTIMONIALS', 'BLOG']
+        }
+    },
     components: {
         headerNav
     }
@@ -15,53 +20,39 @@ export default {
                     <img src="../assets/img/gym_logo_1x.png" class="img-fluid" alt="gym logo">
                 </a>
             </div>
-            <nav class="d-flex align-items-center">
-                <div class="list-wrapper">
-                    <ul class="d-flex ">
-                        <a href="#">
-                            <li>prova</li>
-                        </a>
-                        <a href="#">
-                            <li>prova</li>
-                        </a>
-                        <a href="#">
-                            <li>prova</li>
-                        </a>
-                        <a href="#">
-                            <li>prova</li>
-                        </a>
-                        <a href="#">
-                            <li>prova</li>
-                        </a>
-
-
-                    </ul>
-                </div>
-            </nav>
+            <headerNav :list="navLinks" />
         </div>
-        <!-- jumbo section -->
-
+        <!-- jumbo text -->
+        <div class="jumbo text-center d-flex justify-content-center align-items-center py-4">
+            <div class="jumbo-txt">
+                <h1>NO PAIN NO GAIN</h1>
+                <p>Motivation is what gets you started. Motivation is what keeps you going</p>
+            </div>
+        </div>
     </header>
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/palette.scss' as *;
 
-.header-wrapper {
-    min-height: 170px;
-    background-color: black;
+header {
+    background-image: url(../assets/img/home-banner.jpg);
+    background-position: center;
+    min-height: 800px;
+}
 
-    img {
-        scale: 0.8;
-    }
-
-    ul {
-        padding: 0;
-
-        li {
+.jumbo {
+    .jumbo-txt {
+        h1 {
+            font-size: 6rem;
             color: white;
-            padding: 5px 30px;
+        }
+
+        p {
+            color: rgb(209, 209, 209);
+            font-size: 1.5rem;
         }
     }
+
 }
 </style>
