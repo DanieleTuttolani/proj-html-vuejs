@@ -14,7 +14,7 @@ export default {
 <style lang="scss" scoped>
 button {
     background-color: transparent;
-    font-size: 30px;
+    font-size: 23px;
     border-color: rgb(151, 151, 151);
     color: rgb(206, 206, 206);
     padding: 5px 35px;
