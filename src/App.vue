@@ -2,11 +2,13 @@
 import AppHeader from './components/AppHeader.vue';
 import form from './components/micro components/form.vue';
 import points from './components/points.vue';
+import AppMain from './components/AppMain.vue';
 export default {
     components: {
         AppHeader,
         mainForm: form,
-        points
+        points,
+        AppMain
     }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
     <AppHeader />
     <mainForm />
     <points />
+    <AppMain />
 </template>
 
 <style lang="scss">
