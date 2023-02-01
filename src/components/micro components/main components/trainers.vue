@@ -44,7 +44,7 @@ export default {
                 </div>
             </div>
 
-            <div class="text-center">
+            <div class="text-center mt-5">
                 <Button :fillTxt="'VIEW ALL TRAINERS'" />
             </div>
         </div>
@@ -56,10 +56,9 @@ export default {
 
 .bgc {
     background-color: $black;
+    padding: 40px 0;
 
     .container {
-        min-height: 800px;
-
         .info-wrapper {
             background-color: $light-dark;
         }
