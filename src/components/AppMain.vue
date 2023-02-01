@@ -3,6 +3,7 @@ import realWorld from './micro components/main components/realWorld.vue';
 import facilities from './micro components/main components/facilities.vue';
 import quoteOFDay from './micro components/main components/quoteOFDay.vue';
 import trainers from './micro components/main components/trainers.vue';
+import news from './micro components/main components/news.vue';
 export default {
     data() {
         return {
@@ -35,7 +36,7 @@ export default {
         }
     },
     components: {
-        realWorld, facilities, quoteOFDay, trainers
+        realWorld, facilities, quoteOFDay, trainers, news
     }
 }
 </script>
@@ -45,6 +46,7 @@ export default {
     <facilities />
     <quoteOFDay />
     <trainers />
+    <news />
 </template>
 
 <style>
