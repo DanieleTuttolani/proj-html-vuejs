@@ -1,5 +1,6 @@
 <script>
 import realWorld from './micro components/main components/realWorld.vue';
+import facilities from './micro components/main components/facilities.vue';
 export default {
     data() {
         return {
@@ -32,13 +33,14 @@ export default {
         }
     },
     components: {
-        realWorld
+        realWorld, facilities
     }
 }
 </script>
 
 <template>
     <realWorld :list="testimonials" />
+    <facilities />
 </template>
 
 <style>

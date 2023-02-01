@@ -1,0 +1,38 @@
+<script>
+import divider from '../divider.vue';
+export default {
+    components: {
+        divider
+    }
+}
+</script>
+
+<template>
+    <div class="bgc">
+        <div class="title-wrapper text-center text-light">
+            <h1>HIGH PERFORMANCE FACILITIES</h1>
+            <divider />
+        </div>
+        <div class="container">
+            <div class="row row-cols-3">
+                <div v-for="i in 6" class="col">
+                    <img :src="`src/assets/img/home-image${i}.jpg`" alt="home image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style lang="scss" scoped>
+@use '../../../assets/scss/palette.scss' as *;
+
+.bgc {
+    min-height: 400px;
+    background-color: $black;
+
+    .col {
+        padding: 25px;
+    }
+
+}
+</style>
