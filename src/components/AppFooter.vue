@@ -9,8 +9,10 @@ export default {
 </script>
 
 <template>
-    <joinUs />
-    <footerMain />
+    <footer>
+        <joinUs />
+        <footerMain />
+    </footer>
 </template>
 
 <style lang="scss" scoped>
