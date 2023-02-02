@@ -23,7 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 .join-us {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .bgc {
