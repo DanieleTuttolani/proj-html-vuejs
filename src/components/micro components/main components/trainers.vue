@@ -56,7 +56,8 @@ export default {
 
 .bgc {
     background-color: $black;
-    padding: 40px 0;
+    padding: 90px 0;
+
 
     .container {
         .info-wrapper {

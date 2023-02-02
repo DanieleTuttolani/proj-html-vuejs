@@ -21,12 +21,12 @@ export default {
             <divider />
         </div>
         <div class="container">
-            <div class="row row-cols-3 justify-content-start">
+            <div class="row row-cols-3 justify-content-start g-4">
                 <div v-for="add in store.news" class="col d-flex flex-column">
                     <div class="img-wrapper">
                         <img :src="`src/assets/img/${add.pic}`" class="img-fluid" alt="news pic">
                     </div>
-                    <div class="text-wrapper text-light">
+                    <div class="text-wrapper text-light p-4">
                         <p><strong>{{ add.title }}</strong></p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, tenetur fuga repudiandae
@@ -36,7 +36,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center btn-wrapper">
                 <Button :fillTxt="'READ ALL ARTICLES'" />
             </div>
         </div>
@@ -49,9 +49,14 @@ export default {
 .news {
     min-height: 500px;
     background-color: $light-dark;
+    padding: 100px 0;
 
     .text-wrapper {
         background-color: $black;
+    }
+
+    .btn-wrapper {
+        margin-top: 70px;
     }
 }
 </style>

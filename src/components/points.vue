@@ -38,7 +38,7 @@ export default {
     <div class="wrapper">
 
         <div class="container">
-            <div class="row row-cols-4">
+            <div class="row row-cols-4 py-5">
                 <div v-for="point in points" class="col text-center text-light">
                     <div class="img-wrapper mx-auto">
                         <i class="bi" :class="point.icon"></i>

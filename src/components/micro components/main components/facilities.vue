@@ -29,6 +29,7 @@ export default {
 .bgc {
     min-height: 400px;
     background-color: $black;
+    padding: 80px 0;
 
     .col {
         padding: 25px;

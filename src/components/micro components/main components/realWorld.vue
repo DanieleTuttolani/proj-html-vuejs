@@ -1,5 +1,7 @@
 <script>
+import divider from '../divider.vue';
 export default {
+
     data() {
         return {
             imgBasePath: '../../../assets/img/'
@@ -12,6 +14,9 @@ export default {
         makePath(p) {
             this.imgBasePath + p
         }
+    },
+    components: {
+        divider
     }
 }
 </script>
@@ -19,6 +24,7 @@ export default {
 <template>
     <div class="bgc text-center">
         <h1 class="text-light">REAL WORLD RESULTS</h1>
+        <divider />
         <div class="container">
             <div class="row  row-cols-2">
                 <div v-for="testimonial in list" class="col p-3">
@@ -52,6 +58,7 @@ export default {
 .bgc {
     min-height: 400px;
     background-color: $black;
+    padding: 80px 0;
 
     .col {
         .card-wrapper {
