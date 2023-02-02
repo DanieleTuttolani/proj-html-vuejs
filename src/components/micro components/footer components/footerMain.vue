@@ -14,6 +14,7 @@ export default {
 </script>
 
 <template>
+    <!-- footer start -->
     <section class="footer-main bgc">
         <div class="container">
             <div class="foot-wrapper justify-content-between d-flex">
@@ -83,6 +84,7 @@ export default {
                 </div>
             </div>
         </div>
+        <!-- copriright and final part -->
         <div class="footer-bottom">
             <div class="container h-100">
                 <div class="text-wrapper d-flex align-items-center justify-content-between h-100">

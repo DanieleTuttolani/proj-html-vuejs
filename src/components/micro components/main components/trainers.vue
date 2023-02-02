@@ -16,6 +16,7 @@ export default {
 </script>
 
 <template>
+    <!-- trainers section -->
     <section class="trainers bgc">
         <div class="title-wrapper text-center text-light">
             <h1>Meet our trainers</h1>

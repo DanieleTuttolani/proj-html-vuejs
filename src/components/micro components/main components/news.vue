@@ -15,6 +15,7 @@ export default {
 </script>
 
 <template>
+    <!-- news section -->
     <section class="news">
         <div class="title-wrapper text-center text-light">
             <h1>Performance News</h1>

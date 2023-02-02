@@ -8,12 +8,14 @@ export default {
 </script>
 
 <template>
+    <!-- join us section -->
     <section class="join-us bgc">
         <div class="alt-container d-flex justify-content-between">
             <div class="info text-light">
                 <h1>Achive your Fitness Goals</h1>
                 <p>Flexible membership packages to suit all levels of athlete and achive your fitness goals</p>
             </div>
+            <!-- button component -->
             <div class="btn-wrapper">
                 <Button :fillTxt="'Join us'" />
             </div>

@@ -2,6 +2,7 @@
 export default {}
 </script>
 <template>
+    <!-- quote of the day section -->
     <section class=" quote-of-day bgc">
         <div class="text-wrapper text-center text-light">
             <h2>"i fear not the man who has practiced 10,000 kicks once, but i fear the man who has pracriced one kick

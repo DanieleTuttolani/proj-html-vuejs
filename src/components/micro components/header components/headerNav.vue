@@ -7,6 +7,7 @@ export default {
 </script>
 
 <template>
+    <!-- header nav section -->
     <nav class="d-flex align-items-center">
         <div class="list-wrapper">
             <ul class="d-flex ">

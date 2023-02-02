@@ -22,6 +22,7 @@ export default {
 </script>
 
 <template>
+    <!-- real world | rewiews -->
     <section class="real-word bgc text-center">
         <h1 class="text-light">REAL WORLD RESULTS</h1>
         <divider />

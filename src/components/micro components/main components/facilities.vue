@@ -8,6 +8,7 @@ export default {
 </script>
 
 <template>
+    <!-- facilities section -->
     <section class="facilities bgc">
         <div class="title-wrapper text-center text-light">
             <h1>HIGH PERFORMANCE FACILITIES</h1>
