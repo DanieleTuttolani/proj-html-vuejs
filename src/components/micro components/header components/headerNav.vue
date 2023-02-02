@@ -10,15 +10,19 @@ export default {
     <nav class="d-flex align-items-center">
         <div class="list-wrapper">
             <ul class="d-flex ">
-                <a href="#" v-for="link in list">
-                    <li>{{ link }}</li>
-                </a>
+                <li v-for="link in list" :key="link">
+                    <a href="#">
+                        {{ link }}
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
 </template>
 
 <style lang="scss" scoped>
+@use '../../../assets/scss/palette.scss' as *;
+
 .header-wrapper {
     min-height: 170px;
 
@@ -32,6 +36,14 @@ export default {
         li {
             color: white;
             padding: 5px 30px;
+
+            a {
+                color: white;
+            }
+
+            &:hover a {
+                color: $main-red;
+            }
         }
     }
 

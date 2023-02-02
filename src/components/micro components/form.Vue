@@ -30,14 +30,14 @@ export default {
                     <div class="right">
                         <h3 class="text-light">Sing Up for a free trial session</h3>
                         <form>
-                            <div class="mb-3">
+                            <div class="mb-3 ">
                                 <label for="exampleInputEmail1" class="form-label">Name*</label>
-                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                <input type="text" class="form-control  text-light" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3 ">
                                 <label for="exampleInputPassword1" class="form-label">Email*</label>
-                                <input type="email" class="form-control" id="exampleInputPassword1">
+                                <input type="email" class="form-control text-light" id="exampleInputPassword1">
                             </div>
                             <button type="submit" class="btn">START NOW!</button>
                         </form>

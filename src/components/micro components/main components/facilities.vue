@@ -33,6 +33,14 @@ export default {
 
     .col {
         padding: 25px;
+
+        img {
+            transition: 0.3s linear;
+
+            &:hover {
+                scale: 1.1;
+            }
+        }
     }
 
 }
