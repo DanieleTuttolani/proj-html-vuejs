@@ -22,7 +22,7 @@ export default {
 </script>
 
 <template>
-    <div class="bgc text-center">
+    <section class="real-word bgc text-center">
         <h1 class="text-light">REAL WORLD RESULTS</h1>
         <divider />
         <div class="container">
@@ -49,7 +49,7 @@ export default {
             </div>
         </div>
 
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>

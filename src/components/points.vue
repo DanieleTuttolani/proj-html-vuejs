@@ -35,7 +35,7 @@ export default {
 
 
 <template>
-    <div class="wrapper">
+    <section class="wrapper">
 
         <div class="container">
             <div class="row row-cols-4 py-5">
@@ -51,7 +51,7 @@ export default {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 

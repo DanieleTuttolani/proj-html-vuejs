@@ -2,14 +2,14 @@
 export default {}
 </script>
 <template>
-    <div class="bgc">
+    <section class=" quote-of-day bgc">
         <div class="text-wrapper text-center text-light">
             <h2>"i fear not the man who has practiced 10,000 kicks once, but i fear the man who has pracriced one kick
                 10,000 times"
             </h2>
             <p>Quote of the day - Bruce lee</p>
         </div>
-    </div>
+    </section>
 </template>
 <style scoped>
 .bgc {

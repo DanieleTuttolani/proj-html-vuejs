@@ -17,9 +17,11 @@ export default {
 
 <template>
     <AppHeader />
-    <mainForm />
-    <points />
-    <AppMain />
+    <main>
+        <mainForm />
+        <points />
+        <AppMain />
+    </main>
     <AppFooter />
 </template>
 

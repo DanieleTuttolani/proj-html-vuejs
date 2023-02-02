@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div class="bgc">
+    <section class="trainers bgc">
         <div class="title-wrapper text-center text-light">
             <h1>Meet our trainers</h1>
             <divider />
@@ -48,7 +48,7 @@ export default {
                 <Button :fillTxt="'VIEW ALL TRAINERS'" />
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>
