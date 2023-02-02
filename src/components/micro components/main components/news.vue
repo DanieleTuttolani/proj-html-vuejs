@@ -74,7 +74,7 @@ export default {
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: #7fd8bd6e;
+            background-color: #7fd8bdd7;
             justify-content: center;
             align-items: center;
             font-size: 3rem;
@@ -82,16 +82,18 @@ export default {
             a {
                 color: white;
             }
+
+        }
+
+        .img-wrapper {
+            img {
+                position: relative;
+
+            }
         }
 
     }
 
-    .img-wrapper {
-        img {
-            position: relative;
-
-        }
-    }
 
     .text-wrapper {
         background-color: $black;
