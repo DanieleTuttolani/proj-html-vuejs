@@ -1,6 +1,7 @@
 <script>
 import { store } from '../../../assets/data/store'
 import divider from '../divider.vue';
+import Button from '../Button.vue';
 export default {
     data() {
         return {
@@ -8,7 +9,7 @@ export default {
         }
     },
     components: {
-        divider
+        divider, Button
     }
 }
 </script>
@@ -21,7 +22,7 @@ export default {
         </div>
         <div class="container">
             <div class="row row-cols-3 justify-content-start">
-                <div v-for="add in store.news" class="col">
+                <div v-for="add in store.news" class="col d-flex flex-column">
                     <div class="img-wrapper">
                         <img :src="`src/assets/img/${add.pic}`" class="img-fluid" alt="news pic">
                     </div>
@@ -30,10 +31,13 @@ export default {
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, tenetur fuga repudiandae
                             officiis magni suscipit sit accusantium amet recusandae commodi culpa ut labore,
-                            reprehenderit rerum. Quis dolorum facilis nemo earum.
+                            reprehenderit rerum. Quis dolorum facilis nemo earum[...]
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="text-center">
+                <Button :fillTxt="'READ ALL ARTICLES'" />
             </div>
         </div>
     </section>
