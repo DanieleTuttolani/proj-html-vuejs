@@ -25,7 +25,7 @@ export default {
             <headerNav :list="navLinks" />
         </div>
         <!-- jumbo text -->
-        <div class="jumbo text-center d-flex justify-content-center align-items-center py-4">
+        <div class="jumbo text-center d-flex justify-content-center align-items-center h-100">
             <div class="jumbo-txt">
                 <h1>NO PAIN NO GAIN</h1>
                 <p>Motivation is what gets you started. Motivation is what keeps you going</p>
@@ -41,11 +41,15 @@ export default {
 header {
     background-image: url(../assets/img/home-banner.jpg);
     background-position: center;
-    min-height: 800px;
+    height: 1000px;
 }
 
 .jumbo {
     .jumbo-txt {
+        position: relative;
+        bottom: 220px;
+        left: auto;
+
         h1 {
             font-size: 6rem;
             color: white;
